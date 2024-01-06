@@ -35,3 +35,8 @@ conda activate D:\xx\xx
 ```
 conda info --envs
 ```
+
+* > 删除环境
+```
+conda remove -n xxxxx(名字) --all
+```
