@@ -17,4 +17,7 @@
 2.验证集配置路径
 3.数据集类别数量
 ```
-python train.py --data mask_data.yaml --cfg mask_yolov5l.yaml --weights pretrained/yolov5l.pt --epoch 100 --batch-size 4
+
+
+
+
