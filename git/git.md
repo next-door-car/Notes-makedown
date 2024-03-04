@@ -11,6 +11,7 @@
 8.git push origin master 会直接推到master分支
 9.git pull origin zlzyang:master 合并到master分支
 10.git push origin master:develop  将本地的master分支合并到develop仓库分支 
+11.git push --force origin develop:main  第一次推强制执行
 ```
 -------
 

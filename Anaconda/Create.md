@@ -3,7 +3,7 @@
 * 1.打开命令提示符或Anaconda Prompt。
 * 2.运行以下命令来创建一个新的环境并指定安装路径：
 ```
-conda create --prefix D:\ProgramData\anaconda3\envs\YOLO_LK
+conda create --prefix D:\ProgramData\anaconda3\envs\YOLO_LK --python=3.8
 ```
 * 3.当提示是否继续安装时，输入`y`并按回车键确认。
 * 4.环境创建完成后，使用以下命令激活该环境：
@@ -40,3 +40,9 @@ conda info --envs
 ```
 conda remove -n xxxxx(名字) --all
 ```
+
+* > 查看环境下的所有包
+```
+conda list
+```
+
