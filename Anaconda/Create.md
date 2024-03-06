@@ -46,6 +46,11 @@ conda remove -n RD++--python=3.8 --all
 conda list
 ```
 
+* > 下载指定包
+```
+pip install -r C:\Users\admin\Desktop\requirements.txt
+```
+
 * > 配置国内源
 ```
 conda config --remove-key channels
